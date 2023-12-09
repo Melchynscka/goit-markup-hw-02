@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:#FFFFFF;
     font-style: normal;
@@ -87,7 +87,7 @@ h1, h2, h3 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 1.12em;
 }
 
  .button-title {
@@ -95,7 +95,8 @@ h1, h2, h3 {
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 500;
-    letter-spacing: 0.64px;
+    line-height: 1.5;
+    letter-spacing: 0.64em;
     background-color: var(--IRIS, #4D5AE5);
     
 }
@@ -115,11 +116,11 @@ h1, h2, h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .advantages-description {
-    letter-spacing: 0.02;
+    
 }
 
 /* Section-team */
@@ -131,7 +132,7 @@ h1, h2, h3 {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -141,18 +142,18 @@ h1, h2, h3 {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .applications {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .applications-content {
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
