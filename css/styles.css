@@ -40,26 +40,20 @@ h1, h2, h3 {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.navigation-list {
+.navigation-link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+
 }
  
-.navigation-list:hover {
+.navigation-link:hover {
     color: #404BBF;
 }
 
-.list-accent {
-   color: #2e2f42;
-}
-
-.list-accent:hover {
-    color:  #404bbf;
-}
-.list-accent:focus {
-    color: #404bbf;
+.navigation-link:focus {
+    color: #404bbf ;
 }
 .address-link {
     color: #2e2f42;
@@ -87,7 +81,7 @@ h1, h2, h3 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12em;
+    letter-spacing: 0.02em;
 }
 
  .button-title {
@@ -96,7 +90,7 @@ h1, h2, h3 {
     color: #FFFFFF;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64em;
+    letter-spacing: 0.04em;
     background-color: var(--IRIS, #4D5AE5);
     
 }
@@ -126,6 +120,9 @@ h1, h2, h3 {
 /* Section-team */
 .team-list {
     background-color: #F4F4FD;
+}
+.applications-list {
+    background-color: #FFFFFF;
 }
 .team-title {
     color: #2e2f42;
@@ -163,5 +160,8 @@ h1, h2, h3 {
 }
 .description-footer {
     color: #F4F4FD;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
+}
+.accent-two {
+    color: #F4F4FD;
 }
