@@ -73,7 +73,7 @@ h1, h2, h3 {
 .address-item:hover {
      color: #404bbf;
 }
-.address-item:hover {
+.address-item:focus {
     color: #404bbf;
 }
 
